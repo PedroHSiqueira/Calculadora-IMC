@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-  --primary-color: rgb(17, 86, 102);
-  --primary-color-darker: rgb(9, 48, 56);
+  --primary-color: rgb(80, 66, 92);
+  --primary-color-darker: rgb(62, 50, 71);
 }
 
 * {
@@ -27,7 +27,8 @@ body {
   margin: 50px auto;
   background: #fff;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px black;
 }
 
 .container ul{
@@ -52,6 +53,7 @@ form input {
   font-size: 24px;
   height: 50px;
   padding: 0 20px;
+  border-radius: 10px;
 }
 
 form input:focus {
@@ -67,6 +69,7 @@ form button {
   height: 50px;
   cursor: pointer;
   margin-top: 30px;
+  border-radius: 10px;
 }
 
 form button:hover {
@@ -76,11 +79,13 @@ form button:hover {
 .paragrafo-positivo{
   background: #1becae;
   padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 15px;
+  font-weight: 600;
 }
 
 .paragrafo-negativo{
   background: #e76f6f;
   padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 15px;
+  font-weight: 600;
 }
